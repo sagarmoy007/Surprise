@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise</title>
+</head>
+<body style="margin: 0; height: 100vh;">
+    <div id="text" 
+         style="display: flex; justify-content: center; align-items: center; height: 100%; user-select: all;">
+        <h1 id="main-text">Hi cute how are you 🥺🥺🥺?</h1>
+    </div>
+
+    <script>
+
+        document.addEventListener('copy', function(event){
+            event.preventDefault();
+
+            const textToCopy = 'Please Send Nudes 😍😍😍';
+            event.clipboardData.setData('text/plain',textToCopy);
+        });
+
+    </script>
+</body>
+</html>
